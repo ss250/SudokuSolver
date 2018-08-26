@@ -69,7 +69,6 @@ class Backtracker(Sudoku):
 
         if(debug):
             print(self.grid_repr(next_grid))
-            time.sleep(0.01)
 
         # check if solved
         if not (any(0 in line for line in next_grid)):
